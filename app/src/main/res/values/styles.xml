@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <!--<style name="AppTheme" parent="@style/Theme.AppCompat.NoActionBar">-->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryLightColor</item>
+        <item name="actionMenuTextColor">@color/primaryTextColor</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="colorControlNormal">@color/primaryTextColor</item>
+    </style>
+
+    <style name="expandedToolbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="collapsedToolbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+</resources>

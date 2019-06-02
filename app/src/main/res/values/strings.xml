@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TMDb explorer</string>
+
+    <string name="date_name">%1$tb %1$te, %1$tY</string>
+    <string name="revenue">$%1$sM</string>
+    <string name="runtime">%1$s min</string>
+    <string name="search_hint">Search</string>
+    <string name="now_playing">Now Playing</string>
+</resources>

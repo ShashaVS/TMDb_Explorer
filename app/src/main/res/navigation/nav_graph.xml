@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph.xml"
+            app:startDestination="@id/moviesListFragment">
+
+    <fragment android:id="@+id/moviesListFragment"
+              android:name="com.shashavs.tmdbexplorer.ui.movies_list.MoviesListFragment"
+              android:label="MoviesListFragment">
+
+        <action android:id="@+id/action_moviesListFragment_to_pagerFragment"
+                app:destination="@id/pagerFragment"
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"
+                app:popEnterAnim="@anim/slide_in_left"
+                app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment android:id="@+id/pagerFragment"
+              android:name="com.shashavs.tmdbexplorer.ui.movie_detail.PagerFragment"
+              android:label="fragment_pager"
+              tools:layout="@layout/fragment_pager"/>
+</navigation>

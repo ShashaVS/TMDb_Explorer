@@ -1,0 +1,6 @@
+<resources>
+    <string name="api_key" translatable="false">YOUR_API_KEY</string>
+    <string name="base_url" translatable="false">https://api.themoviedb.org</string>
+    <string name="poster_path" translatable="false">https://image.tmdb.org/t/p/w300%1$s</string>
+    <string name="backdrop_path" translatable="false">https://image.tmdb.org/t/p/w500%1$s</string>
+</resources>
