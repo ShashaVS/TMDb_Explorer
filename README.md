@@ -19,6 +19,6 @@ The application uses the TMDb API ([ ​The Movie DB](https://www.themoviedb.org
 - Unit tests: mockito, junit.
 
 #### Note:
-Please, use your API key for app testing ('base.xml -> api_key').
+Please, use your API key for app testing ('base.xml -> api_key'), or you can try the latest version on Google Play: https://play.google.com/store/apps/details?id=com.shashavs.tmdbexplorer
 
 <p align="center"><img src="screenshots/device.gif" width="270" vspace="20" hspace="5" ></p>
